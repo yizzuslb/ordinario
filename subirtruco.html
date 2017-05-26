@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> MI APLICACION_PERFIL </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel = "stylesheet" href = "bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel = "stylesheet" href = "css/botones.css">
+  
+</head>
+<body>
+
+ <ul class="nav nav-pills menu_central" style="font-size:x-large; margin-right: 250px; margin-left: 250px;">
+      <li role="presentation"><a href="ingresar.html" class = "color_letra_menu"><img src="../img/imagenes_home/logo.png" width="30" height="30" /></span>Home<span></a></li>
+   <li role="presentation"><a href="perfil.html" class = "color_letra_menu"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Perfil</a></li>
+   <li role="presentation"><a href="subirtruco.html" class = "color_letra_menu"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>Subir Truco</a></li>
+   <li role="presentation"><a href="index.html" class = "color_letra_menu"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>Salir de la cuenta</a></li>
+ </ul>
+
+<div class="container-fluid" style= "margin-right: 250px; margin-left: 250px;">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-4" style="margin-top: 10px;">
+					<img class = "img-responsive center-block" src="../img/perfil/dr-dominus.jpg" alt="imagen_perfil"  />
+      <ul class = "list-unstyled center-block info">
+       <li class = "lead"><p> USUARIO </p></li>
+			 <li class = "importa"><p> WUNSCH </p></li>
+       <li class = "lead"><p>TUS TRUCOS SUBIDOS </p></li>
+			 <li class = "importa"><p> 10 </p></li>
+       <li class = "lead" ><p>TU CONSOLA PREFERIDA </p></li>
+			 <li class = "importa"><p> PS4 </p></li>
+      </ul>     
+	</div>
+	<div class="col-md-8">
+    <h2 class = "titulos">NUEVO TRUCO:</h2>
+    
+    <div class="row">
+		<div class="col-md-12">
+      <h3>Titulo del Truco</h3>
+      <input type="text" class="form-control" placeholder="Titulo del truco...">
+      <h3>Videojuego</h3>
+      <input type="text" class="form-control" placeholder="Titulo del juego...">
+			<h3>Plataforma</h3>
+		  <input type="text" class="form-control" placeholder="Ejemplo: PC,Plastation 4, etc.">
+			<h3>Descripción del truco</h3>
+			<textarea class="form-control" rows="3"></textarea>
+			<h3>¿Como se realiza?</h3>
+			<textarea class="form-control" rows="3"></textarea>
+			<h3>Videotutorial del truco</h3>
+      <div class="form-group">
+					 
+					<label for="filevideo">Subir Video</label>
+					<input type="file" id="filevideo" />
+					<p class="help-block">El video no debe pesar mas de 700MB</p>
+				</div>
+      
+			<h3>Imagen del Juego</h3>
+      <div class="form-group">
+					 
+					<label for="fileimagen">
+						Subir Foto del Videojuego
+					</label>
+					<input type="file" id="fileimagen" />
+					<p class="help-block">La imagen debe ser formato png o jpg</p>
+				</div>
+   
+			<h3>Combinación de botones</h3>
+      <textarea class="form-control" rows="3"></textarea>
+      
+         <br>
+         <br>
+			<button type="button" class="btn btn-primary btn-lg btn-block" style="margin-bottom: 10px;">Guardar</button>
+		</div>
+    
+    
+    
+    
+    
+    
+  </div>
+	</div>
+      </div>
+      </div>
+    </div>
+  </div>
+        
+ <footer>
+	<div class="container-fluid" style= "margin-right: 250px; margin-left: 250px; background-color:black;" >
+    
+    <div class="col-md-4" style="font-size: medium; text-align: center;color: white;">
+      <address>
+      <strong>Diseño de Pagina Web</strong><br>
+        Universidad Lasalle Victoria<br>
+        IPM 8vo Semestre<br>
+        Maestro: Javier Peña<br>
+      <abbr title="Telefono">Tel:</abbr> (123) 456-7890
+    </address>
+				</div>  
+    
+			<div class="col-md-4" style="font-size: medium; text-align: center;color: white;">
+      <address>
+      <strong>Alumno: Jesus Arnoldo Lopez B.</strong><br>
+      <a href="mailto:#">arnoldo_lb@hotmail.com</a>
+      </address>
+			</div>
+    
+				<div class="col-md-4">
+          <img class = "img-responsive center-block" src="../img/secure.jpg" alt="seguridad_logo" style="width: 30%; height: 30%;">
+				</div>
+      
+  </div>  
+</footer>
+
+
+
+ <script> src = "bower_components/jquery/dist/jquery.min.js"</script>
+ <script> src = "bower_components/bootstrap/dist/js/bootstrap.min.js"</script>  
+</body>
+</html>

@@ -13,17 +13,29 @@
   
 <body>
   
- <ul class="nav nav-pills menu_central" style="font-size:x-large"; >
+ <ul class="nav nav-pills menu_central" style="font-size:x-large; margin-right: 250px; margin-left: 250px;" >
    <li role="presentation"><a href="index.html" class = "color_letra_menu"><img src="../img/imagenes_home/logo.png" width="30" height="30" /></span>Home<span></a></li>
-   <li role="presentation"><a href="perfil.html" class = "color_letra_menu"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Perfil de Usuario</a></li>
-   <li role="presentation"><a href="#" class = "color_letra_menu"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span>Ingresar</a></li>
-   <li role="presentation"><a href="#" class = "color_letra_menu"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span>Subir Truco</a></li>
-   <li role="presentation"><a href="detalles.html" class = "color_letra_menu"><span class="glyphicon glyphicon-book" aria-hidden="true"></span>Detalle de truco</a></li>
+   <li role="presentation"><a href="login.html" class = "color_letra_menu"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span>Ingresar</a></li>
   </ul>
   
- <div class = "container-fluid">
- <h2> MAS POPULARES </h2>      
+ <div class = "container-fluid" style=" margin-right: 250px; margin-left: 250px;">
+     
  <div class="row">
+  <div class="col-md-4">
+    <h2> Trucos por Consola </h2>
+    <ul class="nav nav-pills nav-stacked" style="padding: 10px;background: antiquewhite;font-size: larger;">
+    <li role="presentation"><a href="#">XBOX</a></li>
+    <li role="presentation"><a href="#">PLAYSTATION</a></li>
+    <li role="presentation"><a href="#">NINTENDO</a></li>
+    </ul>
+    
+    
+    
+    
+    
+	</div>
+   <div class="col-md-8">
+	<h2> MAS POPULARES </h2>  
    <div class= "col-md-4">
         <div class="thumbnail">
           <img src="../img/imagenes_home/pokeruby.png" alt="pokemon_ruby">
@@ -66,8 +78,10 @@
 </div>
 
 <div class = "container-fluid">      
-
-               
+</div>
+ <div class="col-md-4">
+	</div>
+   <div class="col-md-8">             
  <h2> MAS NUEVO </h2>   
     
   <div class="row">
@@ -113,11 +127,32 @@
     </div>      
   </div>  
 </div>                                                                 
-
+</div>
   
 <footer>
-  <div class="container-fluid" >
-    QUE ONDA RAZA SOY EL FOOTER
+  <div class="container-fluid" style= "margin-right: 250px; margin-left: 250px; background-color:black;" >
+    
+    <div class="col-md-4" style="font-size: medium; text-align: center;color: white;">
+      <address>
+      <strong>Diseño de Pagina Web</strong><br>
+        Universidad Lasalle Victoria<br>
+        IPM 8vo Semestre<br>
+        Maestro: Javier Peña<br>
+      <abbr title="Telefono">Tel:</abbr> (123) 456-7890
+    </address>
+				</div>  
+    
+			<div class="col-md-4" style="font-size: medium; text-align: center;color: white;">
+      <address>
+      <strong>Alumno: Jesus Arnoldo Lopez B.</strong><br>
+      <a href="mailto:#">arnoldo_lb@hotmail.com</a>
+      </address>
+			</div>
+    
+				<div class="col-md-4">
+          <img class = "img-responsive center-block" src="../img/secure.jpg" alt="seguridad_logo" style="width: 30%; height: 30%;">
+				</div>
+      
   </div>  
 </footer>
   
@@ -125,6 +160,5 @@
   
   <script src = "bower_components/jquery/dist/jquery.min.js"></script>
   <script src = "bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src = "js/main.js"></script>
 </body>
 </html>

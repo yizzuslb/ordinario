@@ -4,7 +4,10 @@
 }
 
 body{
-  background-color:#4575b4; 
+  background-image: url(../img/fondohorizon.jpg);
+ background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:fixed;
 }
 
 .categorias{
@@ -43,8 +46,8 @@ body{
 }
 
 .titulos{
-     background-color: #4575b4;
-    font-size: 50px;
+     background-color:  orange;
+    font-size: 40px;
     padding: inherit;
     margin: 10px;
     color:white;
@@ -52,9 +55,9 @@ body{
 
 .titulo{
     text-align: center;
-    background-color: #4575b4;
+    background-color: orange;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .container-fluid{
